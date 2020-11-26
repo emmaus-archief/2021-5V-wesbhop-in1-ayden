@@ -4,17 +4,17 @@
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
+CREATE TABLE products (name TEXT, description TEXT, code NUMERIC, price NUMERIC);
 
-insert into products (name, description, code, price) values ('French Film', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+insert into products (name, description, code, price) values ('Mortal Kombat 11', 'De gloednieuwe aanpasbare personagevariaties bieden een ongekende controle over je krijgers om er je eigen draai aan te geven. 
 
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+De nieuwe grafische engine toont elk bottenverpulverend moment in zoveel detail dat je het haast kunt voelen. De toonaangevende filmische verhaalmodus van Mortal Kombat bevat bovendien een lijst met nieuwe en bekende Klassic Fighters en bouwt voort op de meer dan 25 jaar oude epische saga.', '816905633-0', 14.99;
 
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', '816905633-0', 10.5);
-insert into products (name, description, code, price) values ('Post Mortem', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+insert into products (name, description, code, price) values ('GTA V', 'Een jonge hustler, een gepensioneerde bankrover en een angstaanjagende psychopaat moeten het opnemen tegen de meest gestoorde elementen uit de onderwereld, de Amerikaanse overheid en de entertainment-industrie.
 
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+Samen moeten ze een reeks gevaarlijke overvallen uitvoeren en zien te overleven in een meedogenloze stad waarin ze niemand kunnen vertrouwen, en elkaar nog het minst.', '077030122-3', 14,99);
 
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', '077030122-3', 11);
+
 insert into products (name, description, code, price) values ('Scarlet and the Black, The', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.

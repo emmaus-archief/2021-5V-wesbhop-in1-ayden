@@ -6,3 +6,12 @@ CREATE TABLE products (
   description TEXT,
   price NUMERIC(10, 2)
 );
+
+DROP TABLE IF EXISTS DLC;
+CREATE TABLE DLC (
+  ID SERIAL PRIMARY KEY,
+  code VARCHAR(15),
+  name VARCHAR(255),
+  description TEXT,
+  price NUMERIC(10, 2)
+);

@@ -4,23 +4,23 @@
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-CREATE TABLE products (name TEXT, description TEXT, code NUMERIC, price NUMERIC);
-
 insert into products (name, description, code, price) values ('Mortal Kombat 11', 'De gloednieuwe aanpasbare personagevariaties bieden een ongekende controle over je krijgers om er je eigen draai aan te geven. 
 
-De nieuwe grafische engine toont elk bottenverpulverend moment in zoveel detail dat je het haast kunt voelen. De toonaangevende filmische verhaalmodus van Mortal Kombat bevat bovendien een lijst met nieuwe en bekende Klassic Fighters en bouwt voort op de meer dan 25 jaar oude epische saga.', '816905633-0', 14.99;
+De nieuwe grafische engine toont elk bottenverpulverend moment in zoveel detail dat je het haast kunt voelen. De toonaangevende filmische verhaalmodus van Mortal Kombat bevat bovendien een lijst met nieuwe en bekende Klassic Fighters en bouwt voort op de meer dan 25 jaar oude epische saga.', 'MK11', 49.99;
 
 insert into products (name, description, code, price) values ('GTA V', 'Een jonge hustler, een gepensioneerde bankrover en een angstaanjagende psychopaat moeten het opnemen tegen de meest gestoorde elementen uit de onderwereld, de Amerikaanse overheid en de entertainment-industrie.
 
-Samen moeten ze een reeks gevaarlijke overvallen uitvoeren en zien te overleven in een meedogenloze stad waarin ze niemand kunnen vertrouwen, en elkaar nog het minst.', '077030122-3', 14,99);
+Samen moeten ze een reeks gevaarlijke overvallen uitvoeren en zien te overleven in een meedogenloze stad waarin ze niemand kunnen vertrouwen, en elkaar nog het minst.', 'GTAV', 14,99);
 
 
-insert into products (name, description, code, price) values ('Scarlet and the Black, The', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+insert into products (name, description, code, price) values ('Geometry Dash', 'Jump and fly your way through danger in this rhythm-based action platformer!', 'GD', 3.99);
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+insert into DLC (name, description, code, price) values ('MK11 AFTERMATH', 'Ervaar Mortal Kombats allereerste grote uitbreiding. Aftermath bevat een gloednieuw cinematisch verhaal rondom vertrouwen en bedrog. Vuurgod Liu Kang, de nieuwe tijdbewaarder en beschermer van Earthrealm, wil de toekomst die hij voor zich ziet zeker stellen.
+ Om dat te doen moet hij de hulp inschakelen van enkele onwaarschijnlijke bondgenoten en bekende vijanden. Spelers moeten beslissen wie ze kunnen vertrouwen en wie ze moeten verslaan terwijl alles op het spel staat. Smeed een nieuwe geschiedenis.', 'MK11AFT', 39.99)
 
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', '445924201-X', 13.5);
-insert into products (name, description, code, price) values ('Aquí llega Condemor, el pecador de la pradera', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+ insert into DLC 
+
+/*insert into products (name, description, code, price) values ('Aquí llega Condemor, el pecador de la pradera', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
 
 In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
 
@@ -310,4 +310,4 @@ Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan fe
 insert into products (name, description, code, price) values ('The Four Feathers', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', '704137368-1', 13.5);
 insert into products (name, description, code, price) values ('First Daughter', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
 
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', '637276459-8', 11.5);
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', '637276459-8', 11.5);/*

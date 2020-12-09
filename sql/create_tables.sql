@@ -4,7 +4,8 @@ CREATE TABLE products (
   code TEXT,
   name TEXT,
   description TEXT,
-  price NUMERIC(10, 2)
+  price NUMERIC,
+  product_id INTEGER
 );
 
 DROP TABLE IF EXISTS DLC;
@@ -13,5 +14,13 @@ CREATE TABLE DLC (
   code TEXT,
   name TEXT,
   description TEXT,
-  price NUMERIC(10, 2)
+  price NUMERIC,
+  DLC_id INTEGER
+);
+
+DROP TABLE IF EXISTS rec;
+CREATE TABLE rec (
+  ID SERIAL PRIMARY KEY,
+  product_id INTEGER,
+  DLC_id INTEGER
 );

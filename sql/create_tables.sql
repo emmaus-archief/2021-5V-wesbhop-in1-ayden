@@ -1,8 +1,8 @@
 DROP TABLE IF EXISTS products; 
 CREATE TABLE products (
   ID SERIAL PRIMARY KEY,
-  code VARCHAR(15),
-  name VARCHAR(255),
+  code TEXT,
+  name TEXT,
   description TEXT,
   price NUMERIC(10, 2)
 );
@@ -10,8 +10,8 @@ CREATE TABLE products (
 DROP TABLE IF EXISTS DLC;
 CREATE TABLE DLC (
   ID SERIAL PRIMARY KEY,
-  code VARCHAR(15),
-  name VARCHAR(255),
+  code TEXT,
+  name TEXT,
   description TEXT,
   price NUMERIC(10, 2)
 );

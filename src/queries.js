@@ -27,7 +27,7 @@ const getProducts = (request, response) => {
   var query = 'SELECT * FROM products ORDER BY id ASC'
   var params = []
   if(category_id > 0){
-    query = 'SELECT * FROM products WHERE category_id = $1 ORDER BY id ASC'
+    query = 'SELECT * FROM products;'
     params = [ category_id]
   }
   pool.query(query, params, (error, results) => {

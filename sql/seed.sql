@@ -6,13 +6,13 @@
 
 insert into products (name, description, code, price) values ('Mortal Kombat 11', 'De gloednieuwe aanpasbare personagevariaties bieden een ongekende controle over je krijgers om er je eigen draai aan te geven. 
 
-De nieuwe grafische engine toont elk bottenverpulverend moment in zoveel detail dat je het haast kunt voelen. De toonaangevende filmische verhaalmodus van Mortal Kombat bevat bovendien een lijst met nieuwe en bekende Klassic Fighters en bouwt voort op de meer dan 25 jaar oude epische saga.', 'MK11', 49.99, 1;
+De nieuwe grafische engine toont elk bottenverpulverend moment in zoveel detail dat je het haast kunt voelen. De toonaangevende filmische verhaalmodus van Mortal Kombat bevat bovendien een lijst met nieuwe en bekende Klassic Fighters en bouwt voort op de meer dan 25 jaar oude epische saga.', 'MK11', 49.99, 1);
 
 insert into products (name, description, code, price) values ('GTA V', 'Een jonge hustler, een gepensioneerde bankrover en een angstaanjagende psychopaat moeten het opnemen tegen de meest gestoorde elementen uit de onderwereld, de Amerikaanse overheid en de entertainment-industrie.
 
 Samen moeten ze een reeks gevaarlijke overvallen uitvoeren en zien te overleven in een meedogenloze stad waarin ze niemand kunnen vertrouwen, en elkaar nog het minst.', 'GTAV', 14,99, 2);
 
-insert into products (name, description, code, price) values ('Geometry Dash', 'Jump and fly your way through danger in this rhythm-based action platformer!', 'GD', 3.99), 3;
+insert into products (name, description, code, price) values ('Geometry Dash', 'Jump and fly your way through danger in this rhythm-based action platformer!', 'GD', 3.99, 3);
 
 insert into products (name, description, code, price) values ('FINAL FANTASY XV WINDOWS EDITION','In an action-packed battle system, channel the power of your ancestors to warp effortlessly through the air in thrilling combat,
 and together with your comrades, master the skills of weaponry, magic and team-based attacks.', 'FF15', 34,99, 4);

@@ -9,5 +9,5 @@ tasks:
   - init: |
       psql < sql/bootstrap_db.sql
       psql --username=api  shop < sql/create_tables.sql
-      psql --username=api  shop < sql/seed.sql
+      psql --username=api shop < sql/seed.sql
   - command: cd src && yarn config set script-shell /bin/bash && yarn install && node index.js 

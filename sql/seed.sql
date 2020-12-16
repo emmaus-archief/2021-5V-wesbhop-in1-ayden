@@ -27,3 +27,6 @@ insert into DLC (name, description, code, price, DLC_id) values ('GTA V Premium 
 
 insert into DLC (name, description, code, price, DLC_id) values ('FINAL FANTASY XV EPISODE ARDYN','For the first time, players take control of the greatest foe of Noctis in this brand-new episode of FINAL FANTASY XV! Delve into the dark tale of scorned saviour Ardyn Lucis Caelum and unravel the secrets surrounding his mysterious past.', 'FF15NOC', 4.99, 4);
 
+insert into rec (product_id, DLC_id) values (1,1)
+insert into rec (2,2)
+insert into rec (4,4)

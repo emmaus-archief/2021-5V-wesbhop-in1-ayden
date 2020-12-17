@@ -35,4 +35,4 @@ CREATE TABLE ookleuk (
 );
 
 /*SELECT products.name, DLC.name FROM products
-LEFT OUTER JOIN ON products.product_id = DLC.DLC_id;*/
+LEFT OUTER JOIN DLC ON products.product_id = DLC.DLC_id;*/

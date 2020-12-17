@@ -18,7 +18,7 @@ CREATE TABLE DLC (
   DLC_id INTEGER
 );
 
-/* tabel om aan tegeven welke content bij welk spel gekocht kan worden, n:m-relatie */
+/* tabel om aan tegeven welke content bij welk spel gekocht kan worden, n:m-relatie !NIET NODIG ELK SPEL HEEFT 1 DLC IN MIJN SEED!*/
 DROP TABLE IF EXISTS rec;
 CREATE TABLE rec (
   ID SERIAL PRIMARY KEY,
@@ -33,3 +33,6 @@ CREATE TABLE ookleuk (
   wieditkoopt_id INTEGER,
   kooptookdit_id2 INTEGER
 );
+
+/*SELECT products.name, DLC.name FROM products
+LEFT OUTER JOIN ON products.product_id = DLC.DLC_id;*/
